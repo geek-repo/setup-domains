@@ -1,0 +1,5 @@
+apt-get install python-certbot-nginx
+
+certbot --nginx -d domain.com 
+
+NOTE:- here domain.com is the domain you wanted to have ssl do this after setting up websites first by my main.py script
